@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
+body {
+  font-family:Vazirmatn FD, "Nunito", sans-serif;
+  direction: rtl;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family:Vazirmatn FD, "Nunito", sans-serif;
+}
+
+.title-border {
+  background: linear-gradient(to left, transparent, #5664d2, transparent);
+}
+#back-to-top {
+  left: 30px;
+  right: unset;
+}
+.buy-button {
+  left: 65px;
+  right: unset;
+}
+.sub-title {
+  letter-spacing: 0px;
+}
+.play-btn {
+  right: 50%;
+  left: unset;
+  transform: translate(-50%, -50%);
+}
+.home-modal .btn-close {
+  left: 3px;
+  right: unset;
+}
+.service-box .lighlight-border {
+  background: linear-gradient(to left, transparent, #5664d2, transparent);
+}
+.demo-box img:hover {
+  transform: translateY(-10px);
+}
+.list-inline-item:not(:last-child) {
+    margin-left: .5rem;
+    margin-right: unset !important;
+}

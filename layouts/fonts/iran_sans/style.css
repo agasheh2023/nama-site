@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: IRANSansnum;
+    font-style: normal;
+    font-weight: 500;
+    src: url('IRANSansWeb(FaNum)_Medium.eot');
+    src: url('IRANSansWeb(FaNum)_Medium.eot?#iefix') format('embedded-opentype'),
+     url('IRANSansWeb(FaNum)_Medium.woff2') format('woff2'), 
+     url('IRANSansWeb(FaNum)_Medium.woff') format('woff'),
+      url('IRANSansWeb(FaNum)_Medium.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: IRANSansnum;
+    font-style: normal;
+    font-weight: 400;
+    src: url('IRANSansWeb(FaNum).eot');
+    src: url('IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),
+     url('IRANSansWeb(FaNum).woff2') format('woff2'),
+      url('IRANSansWeb(FaNum).woff') format('woff'),
+       url('IRANSansWeb(FaNum).ttf') format('truetype')
+}

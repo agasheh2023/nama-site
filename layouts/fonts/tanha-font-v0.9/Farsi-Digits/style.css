@@ -1,0 +1,11 @@
+@font-face {
+    font-family: tanha FD;
+    src: url('Tanha-FD.eot');
+    src: url('Tanha-FD.woff2') format('woff2'),
+    url('Tanha-FD.eot?#iefix') format('embedded-opentype'),
+    url('Tanha-FD.woff') format('woff'),
+     url('Tanha-FD.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }

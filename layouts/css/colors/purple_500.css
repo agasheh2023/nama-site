@@ -1,0 +1,149 @@
+/* purple_500.css   Material Design Color Purple 500 */
+
+/* COLOR */
+
+.nav-sticky.navbar-custom .navbar-nav li.active a,
+.nav-sticky.navbar-custom .navbar-nav li a:hover,
+.nav-sticky.navbar-custom .navbar-nav li a:focus,
+.nav-sticky.navbar-custom .navbar-nav li a:active,
+.navbar .navbar-nav .nav-link:hover, 
+.navbar .navbar-nav .nav-link:active,
+.navbar .navbar-nav .nav-link.active,
+.navbar-custom .navbar-nav li.active a,
+.navbar-custom .navbar-nav li a:hover,
+.navbar-custom .navbar-nav li a:focus,
+.navbar-custom .navbar-nav li a:active,
+.post-meta a:hover,
+.blog-post-title:hover,
+.text-primary,
+.btn-outline-primary,
+.features .features-box .features-icon,
+.work .work-pra ul li:hover i,
+.mobile .phone i,
+.bg-soft-primary,
+.link-post-content i {
+  color: #9C27B0 !important;
+}
+
+/* BACKGROUND */
+.bg-primary,
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary.active,
+.testimonial-circle span.ring2 img, 
+span.ring4 img,
+span.ring5 img,
+span.ring6,
+span.ring7,
+span.ring8,
+.mode-btn,
+.mobile .phone i::after,
+.home-1 .icon-text .icon {
+  background-color: #9C27B0 !important;
+  color: #fff !important;
+}
+
+/* BORDER-COLOR */
+.btn,
+.btn-primary,
+.btn-outline-primary,
+.custom-form .form-control:focus,
+.features .features-box:hover .features-icon,
+.pricing-box,
+.home-3 span.ring2 img, 
+.ring4 img, 
+.ring5 img,
+.mode-btn,
+.bg-soft-primary,
+.border-primary {
+  border-color: #9C27B0 !important;
+}
+
+@media (min-width: 200px) and (max-width: 991px) {
+  .navbar-custom .navbar-nav li.active a,
+  .navbar-custom .navbar-nav li a:hover,
+  .navbar-custom .navbar-nav li a:active {
+    color: #9C27B0 !important;
+  }
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.focus,
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary .open>.dropdown-toggle.btn-primary {
+  box-shadow: 0px 8px 20px -6px rgb(150, 6, 175);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary.active,
+.btn-outline-primary.focus,
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.btn-outline-primary .open>.dropdown-toggle.btn-primary {
+  box-shadow: 0px 8px 20px -6px rgb(150, 6, 175);
+  transform: translateY(-6px);
+}
+
+.bg-gradiant,
+.bg-outline-gradiant:hover {
+  background: linear-gradient(180deg, #9C27B0 0%, #7d0392 100%);
+  border: none !important;
+  color: #fff !important;
+}
+
+.text-gradiant {
+  background: -webkit-linear-gradient(#9C27B0, #7d0392);
+}
+
+.home-5::before {
+    background: rgba(156, 39, 176, .5) !important;
+}
+
+.home-2 .wave.-three {
+  background-color: rgba(156, 39, 176, .2);
+}
+
+.features .features-box:hover .features-icon,
+.bg-soft-primary,
+.home-5::after,
+.home-2 .wave,
+.home-2 .wave.-two {
+  background-color: rgba(156, 39, 176,.1) !important;
+}
+
+.primary-img, 
+.orange-img, 
+.blue-img, 
+.purple-img, 
+.info-img {
+  display: none !important;
+}
+.warning-img {
+  display: block !important;
+}
+
+body[data-layout-mode=dark] .navbar .navbar-nav .nav-link.active {
+  color: #9C27B0 !important;
+}
+.home-4 {
+  background: linear-gradient( -10deg, rgb(255, 255, 255) 69%, rgb(156, 39, 176) 100% );
+}
+body[data-layout-mode="dark"] .home-4 {
+  background: linear-gradient( -10deg, rgb(23, 33, 42) 69%, rgb(156, 39, 176) 100% ) !important;
+}
+.home-6 .bg-overlay {
+  background-color: #9C27B0;
+  opacity: 0.3;
+}

@@ -1,0 +1,413 @@
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap";
+body,* {
+  font-family:var(--persian-fonts);
+  direction: rtl;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family:var(--persian-fonts);
+}
+
+#style-switcher {
+  right: -250px;
+  left: unset;
+}
+#style-switcher .settings {
+  left: -45px;
+  right: unset;
+}
+ul.pattern li {
+  float: right;
+}
+
+@media (min-width: 200px) and (max-width: 1024px) {
+ 
+  .navbar-custom .navbar-nav {
+    margin-right: 0px;
+    margin-left: unset;
+  }
+  .carousel-indicators {
+    left: 0;
+    right: unset;
+  }
+}
+
+
+.sec-hd .sec-title,.home-3 .home-heading h3 ,.lh-1,.btn {
+  letter-spacing: 0px;
+}
+
+body {
+  font-family: var(--persian-fonts);
+}
+body.modal-open {
+  padding-left: 0px !important;
+  padding-right: unset !important;
+}
+body.modal-open .navbar {
+  padding-left: 0px !important;
+  padding-right: unset !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family:var(--persian-fonts);
+}
+
+.mode-btn {
+  right: 0px;
+  left: unset;
+ 
+}
+.home-1 span.ring1 {
+  right: 100px;
+  left: unset;
+}
+.home-1 span.ring2 {
+  right: 20%;
+  left: unset;
+}
+.home-1 span.ring3 {
+  left: 84px;
+  right: unset;
+}
+.home-1 span.ring4 {
+  right: 46%;
+  left: unset;
+}
+.home-1 span.ring5 {
+    left: 20%;
+    right: unset;
+}
+.home-2 .box {
+    right: 0;
+    left: unset;
+    transform: rotate(-80deg);
+}
+.home-2 .box::after {
+    right: 0;
+  left: unset;
+}
+.home-2 .wave {
+  right: 0;
+  right: 10%;
+  left: unset;
+  margin-right: -150px;
+  margin-left: unset;
+}
+.home-slider .swiper-container .fream-phone {
+  right: 50%;
+  left: unset;
+}
+.mobile .phone {
+  right: 50%;
+  left: unset;
+}
+.mobile .phone i::after {
+  right: 44%;
+  left: unset;
+}
+
+.home-3 #myVideo {
+  left: 0;
+  right: unset;
+}
+.home-3 .home-heading .avatar-md {
+  margin-left: 10px;
+  margin-right: unset;
+}
+.stage svg:nth-child(1) {
+  right: 20%;
+  left: unset;
+  animation: roll-right 9s infinite linear alternate-reverse;
+}
+.stage svg:nth-child(2) {
+  right: 90%;
+  left: unset;
+  animation: roll-right 6s infinite linear alternate-reverse;
+}
+.stage svg:nth-child(3) {
+  right: 70%;
+  left: unset;
+  animation: roll-left 8s infinite linear alternate-reverse;
+}
+.stage svg:nth-child(4) {
+    right: 50%;
+  left: unset;
+  animation: roll-right 12s infinite linear alternate-reverse;
+}
+.stage svg:nth-child(5) {
+  right: 80%;
+  left: unset;
+  animation: roll-right 13s infinite linear alternate-reverse;
+}
+.stage svg:nth-child(6) {
+  right: 10%;
+  left: unset;
+  animation: roll-left 14s infinite linear alternate-reverse;
+}
+.stage svg:nth-child(7) {
+  right: 40%;
+  left: unset;
+  animation: roll-right 20s infinite linear alternate-reverse;
+}
+.stage svg:nth-child(8) {
+  right: 10%;
+  left: unset;
+  animation: roll-left 11s infinite linear alternate-reverse;
+}
+@keyframes roll-left {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes roll-right {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.home-4 .serch-form input {
+  padding-right: 18px;
+  padding-left: 160px;
+}
+.home-4 .serch-form button {
+  left: 6px;
+  right: unset;
+}
+.home-4 .serch-form button i {
+  margin-left: unset;
+  margin-right: 4px;
+  transform: rotateZ(-140deg);
+}
+
+.home-5::before {
+  right: 0;
+  right: auto;
+  left: 0;
+  clip-path: polygon(0 100%, 0 100%, 88% 0%, 0% 0%);
+}
+.home-5::after {
+  right: auto;
+  left: 0;
+}
+.home-6 .modal-btn {
+  position: relative;
+  padding: 13px 30px 13px 52px;
+}
+
+.mockup .part .top {
+  right: 0;
+  left: unset;
+}
+.mockup .part .bottom {
+    right: 0;
+  left: unset;
+}
+.mockup video {
+    right: 4%;
+  left: unset;
+}
+.mockup .part.bottom {
+    right: 0;
+  left: unset;
+}
+.tagline .top_socials .entry::after {
+  left: -1px;
+  right: unset;
+}
+
+.pricing .pricing-box .pricing-icon::before {
+  right: 50%;
+  left: unset;
+  transform: translateX(50%);
+}
+.aon-med-testimonial-2 {
+  padding: 20px 80px 20px 20px;
+}
+.aon-med-testimonial-2 .aon-testimonial-quote {
+  right: 0px;
+  left: unset;
+}
+.aon-med-testimonial.aon-owl-arrow.left .owl-nav {
+  padding-right: 50px;
+  padding-left: unset;
+}
+.aon-owl-arrow.left .owl-nav {
+  text-align: left;
+}
+.testimonial-right {
+  left: 90px;
+  right: unset;
+}
+.testimonial-circle .media:before {
+  right: -13%;
+  left: unset;
+}
+.testimonial-circle .media:after {
+    right: -30%;
+  left: unset;
+}
+.testimonial-circle span.ring1 {
+  right: -100px;
+  left: unset;
+}
+.testimonial-circle span.ring2 {
+    right: -30px;
+  left: unset;
+}
+.testimonial-circle span.ring3 {
+    left: -100px;
+  right: unset;
+}
+.testimonial-circle span.ring4 {
+    right: 50%;
+  left: unset;
+  margin-right: -33px;
+  margin-left: unset;
+}
+.testimonial-circle span.ring5 {
+    left: -30px;
+  right: unset;
+}
+.testimonial-circle span.ring6 {
+    left: 10px;
+  right: unset;
+}
+.testimonial-circle span.ring7 {
+    right: -50px;
+  left: unset;
+}
+.testimonial-circle span.ring8 {
+    left: -44px;
+  right: unset;
+}
+@media only screen and (max-width: 991px) {
+  .testimonial-circle span.ring1 {
+    right: -48px;
+    left: unset;
+  }
+  .testimonial-circle span.ring2 {
+    right: -30px;
+    left: unset;
+  }
+  .testimonial-circle span.ring3 {
+    left: -60px;
+    right: unset;
+  }
+  .testimonial-circle span.ring4 {
+    right: 50%;
+    left: unset;
+    margin-right: -33px;
+    margin-left:unset;
+  }
+  .testimonial-circle span.ring5 {
+    left: -30px;
+    right:unset;
+  }
+  .testimonial-circle span.ring7 {
+    right: -50px;
+    left: unset;
+  }
+  .testimonial-circle span.ring8 {
+    left: -44px;
+    right: unset;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .aon-med-testimonial.aon-owl-arrow.left .owl-nav {
+    padding-right: 0px;
+    padding-left: unset;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .testimonial-circle span.ring1 {
+    right: -70px;
+    left: unset;
+  }
+  .testimonial-circle span.ring2 {
+    right: -30px;
+    left: unset;
+  }
+  .testimonial-circle span.ring3 {
+    left: -80px;
+    right: unset;
+  }
+  .testimonial-circle span.ring4 {
+    right: 50%;
+    left:unset;
+    margin-right: -33px;
+    margin-left: unset;
+  }
+  .testimonial-circle span.ring5 {
+    left: -30px;
+    right:unset;
+  }
+  .testimonial-circle span.ring6 {
+    left: 10px;
+    right: unset;
+  }
+  .testimonial-circle span.ring7 {
+    right: -50px;
+    left: unset;
+  }
+  .testimonial-circle span.ring8 {
+    left: -44px;
+    right: unset;
+  }
+}
+
+.work .work-pra ul li i {
+  float: right;
+  margin-left: 20px;
+  margin-right:unset;
+}
+.team .tab-container .wrapper .tab {
+  float: right;
+}
+
+@media (max-width: 575px) {
+  .effectTab-header .title::before {
+    right: 15%;
+    left: unset;
+  }
+}
+.cta::after {
+    right: 0;
+  left: unset;
+  transform: matrix(1, 0.05, 0, 1, 0, 0);
+}
+.cta::before {
+  left: unset;
+  transform: matrix(1, 0.05, 0, 1, 0, 0);
+}
+
+.contact .contact-form {
+  padding-right: 20px;
+  padding-left: unset;
+}
+.list-unstyled {
+    padding-right: 0;
+    padding-left: 0;
+}
+.list-inline-item:not(:last-child) {
+    margin-left: .5rem;
+    margin-right: unset;
+}
+#select_font{
+    width: 100%;
+}
